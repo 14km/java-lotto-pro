@@ -6,7 +6,7 @@ import static lotto.common.Messages.POSITIVE_MONEY;
 public class Money {
     private static final int MINIMUM_AMOUNT = 0;
 
-    private final int money;
+    private int money;
 
     public Money(String money) {
         validateNumber(money);
